@@ -1,0 +1,114 @@
+    #talkbubble {
+      padding: 20px;
+      margin: 7%;
+      width: 273px;
+      height: 94px;
+      background: red;
+      position: relative;
+      -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
+      border-radius: 10px;
+    }
+    #talkbubble:before {
+    content: "";
+    position: absolute;
+    right: 5%;
+    top: 116px;
+    width: 0px;
+    height: 0px;
+    border-top: 41px solid #ff0000;
+    border-right: 95px solid transparent;
+}
+.b_box{
+    width: 200px;
+    height: 186px;
+    background: red;
+    margin: 100px;
+    -webkit-box-shadow: 8px 9px 12px -4px rgba(0,0,0,0.68);
+    -moz-box-shadow: 8px 9px 12px -4px rgba(0,0,0,0.68);
+    box-shadow: 8px 9px 12px -4px rgba(0,0,0,0.68);
+
+}
+.position{
+   border:3px solid black ;
+   width: 500px;
+   min-height:500px;
+   position:relative; 
+
+} 
+.box{
+  height:100px;
+  width:100px;  
+  position:absolute; 
+}
+.box1{
+    background-color: red;
+    bottom: 0;
+    left: 0; 
+
+}
+.box2{
+    right: 0;
+    left: 0px;
+    margin: 200px auto;
+    background-color: blue;
+
+}
+.box3{
+    right: 0;
+    top: 0;
+    background-color: aqua;
+
+}
+.box4{
+    right: 0;
+    bottom: 0;
+    background-color: yellow;
+
+}
+.box5{
+    background-color: green;
+    top: 0;
+    bottom: 0;
+
+}
+.table{
+  margin: 20px auto;
+  width: 600px;
+  height: 400px;
+}
+table, th, td{
+  border: 2px solid;
+}
+table{
+  margin: 0 auto;
+  width: 400px;
+  height: 300px;
+  border-collapse: collapse;
+}
+th, td {
+  font-size: 20px;
+  text-align: center;
+}
+.ft caption{
+  font-size: 22px;
+}
+.form{
+  margin: 60px auto;
+}
+.form form{
+  margin: 0 auto;
+  width: 500px;
+  min-height: 400px;
+}
+.form fieldset{
+}
+.form label{
+  font-size: 20px;
+}
+.form input{
+  font-size: 18px;
+}
+.button{
+  cursor: pointer;
+}
